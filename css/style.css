@@ -1,0 +1,159 @@
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+html, body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%; }
+/* raleway-regular - latin */
+@font-face {
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   src: local(''),
+        url('../fonts/raleway-v28-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('../fonts/raleway-v28-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+ /* open-sans-regular - latin */
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   src: url('../fonts/open-sans-v29-latin-regular.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('../fonts/open-sans-v29-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/open-sans-v29-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/open-sans-v29-latin-regular.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/open-sans-v29-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/open-sans-v29-latin-regular.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+ /* open-sans-700 - latin */
+@font-face {
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   src: url('../fonts/open-sans-v29-latin-700.eot'); /* IE9 Compat Modes */
+   src: local(''),
+        url('../fonts/open-sans-v29-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+        url('../fonts/open-sans-v29-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+        url('../fonts/open-sans-v29-latin-700.woff') format('woff'), /* Modern Browsers */
+        url('../fonts/open-sans-v29-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+        url('../fonts/open-sans-v29-latin-700.svg#OpenSans') format('svg'); /* Legacy iOS */
+}
+
+.about {
+   
+}
+.about__body {
+   max-width: 1170px;
+   max-height: 665px;
+   margin:0px auto;
+}
+.about__header {
+   margin: 0px 0px 110px 0px;
+}
+.about__title {
+   margin: 0px 0px 40px 0px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   margin: 0px auto;
+   justify-content: center;
+}
+.title {
+   width: 1170px;
+   height: 150px;
+   font-family: 'Raleway';
+   font-weight:400;
+   font-size:36px;
+   font-style: normal;
+   line-height: 42px;
+   align-items: center;
+   position: relative;
+   text-align:center; }
+   .title:after {
+      content: '';
+      position: absolute;
+      width: 170px;
+      bottom: 0;
+      height: 1px;
+      left: 50%;
+      background-color: #EC7979;
+      margin: 0px 0px 0px -85px; }
+.about__text {
+   max-width:1170px;
+   height: 20px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #86878B;
+   margin: 0px auto;
+   justify-content: center;
+   margin-top: 40px;
+}
+.about__content {
+   font-size: 0;
+   display: flex;
+   margin-top: 110px;
+}
+.about__col {
+   flex: 0 0 33%;
+   
+}
+.item-about {
+}
+.item-about__img {
+   margin: 0px auto 40px auto;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+   -ms-flex-align: center;
+   align-items: center;
+   -webkit-box-pack: center;
+   -ms-flex-pack: center;
+   justify-content: center;
+}
+.item-about__title {
+   width: 370px;
+   height: 100px;
+   font-family: 'Open Sans';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 33px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   text-transform: capitalize;
+   color: #000000;
+   
+   align-items: center;  /* центрирую */
+   justify-content: center;
+}
+.item-about__text {
+   width:370px;
+   height:105px;
+   font-family: 'Raleway';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   color: #000000;
+}
