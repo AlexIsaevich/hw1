@@ -1,0 +1,29 @@
+/* 1 */
+
+/* .frame{
+   border: 6px double #fff;
+   background: #86328C;
+   color: #fff;
+   padding: 1em;
+} */
+
+/* 2 */
+
+/* .frame{
+   box-shadow: 0 0 0 0.2em #ffffff,
+   0 0 0 0.4em #86328C;;
+   background: #86328C;
+   color: #ffffff;
+   margin: 1em;
+   padding:1em;
+} */
+
+/* 3 */
+
+.frame{
+   background: #86328C;
+   color: #fff;
+   margin: 1em;
+   padding: 1em;
+   outline: 10px double #86328C;
+}
