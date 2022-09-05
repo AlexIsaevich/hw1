@@ -1,0 +1,301 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+
+	.logo{
+		padding-top: 38px;
+	}
+	.title_block{
+		margin-top: 255px;
+	}
+   .title_block h1{
+      font-weight: 900;
+   font-size: 48px;
+   line-height: 56px;
+   }
+   .features__ico img {
+      width:20%
+   }
+   .title_block p{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 21px;
+   margin-bottom: 90px;
+   }
+   .param_block h3 {
+      font-weight: 900;
+   font-size: 18px;
+   line-height: 21px;
+}
+.param_block p {
+   font-size: 14px;
+   line-height: 16px;
+   margin-top: 5px;
+}
+.params_s {
+   padding: 80px 0;
+}
+.work_descr h4 {
+   font-size: 18px;
+   line-height: 21px;
+   padding-bottom: 12px;
+}
+.team_item>span{
+   font-size: 14px;
+   line-height: 16px;
+}
+.team_item p{
+   padding: 22px 0 38px 0;
+   font-size: 14px;
+   line-height: 16px;
+}
+.team_item h4{
+   font-size: 18px;
+   line-height: 21px;
+}
+.work_descr p {
+   font-size: 14px;
+   line-height: 16px;
+}
+.download_block h5 {
+   font-size: 24px;
+   line-height: 28px;
+}
+.download_block p {
+   font-size: 14px;
+   line-height: 16px;
+   margin-bottom: 45px;
+}
+.footer_item h5 {
+   font-size: 14px;
+   line-height: 16px;
+   margin-bottom: 18px;
+}
+.footer_item p {
+   font-size: 14px;
+   line-height: 16px;
+}
+.copy_txt {
+   font-size: 14px;
+   line-height: 16px;
+}
+.my_btn {
+   font-size: 18px;
+   line-height: 21px;
+}
+.team_item__slider {
+   padding: 46px 0 0 0;
+}
+.team_item img {
+   max-width: 500px;
+   max-height: 332px;
+   padding-left: 0;
+}
+	.download{
+		padding: 78px 0;
+	}
+	.team_s{
+		padding: 80px 0 40px 0;
+	}
+	#dlForm{
+		width: 100%;
+	}
+}
+
+
+
+@media only screen and (max-width : 768px) {
+	
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+	nav{
+		height: 60px;
+		line-height: 60px;
+		position: fixed;
+	}
+	.top_line{
+		display: none;
+	}
+	.logo{
+		padding-top: 20px;
+	}
+	.menu_btn span{
+		top: -20px;
+      color: #ffffff;
+	}
+	#top_menu{
+		background-color: #2a2e48;
+		padding: 20px 0;
+	}
+	.menu li{
+		display: block;
+		text-align: center;
+      min-width: 320px;
+	}
+	.menu li a{
+		display: block;
+      width: 280px;
+      height: 60px;
+      padding: 25px;
+
+	}
+	.menu li a:hover{
+      background: #E71414;
+		color: rgb(255, 255, 255);
+	}
+
+	.title_block{
+		margin-top: 106px;
+	}
+
+   .my_btn {
+      font-size: 24px;
+      line-height: 28px;
+}
+   .title_block p {
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 16px;
+   margin-bottom: 50px;
+}
+.params_s {
+   padding: 60px 0;
+}
+.features__ico img {
+   width:10%
+}
+.team_item img {
+   width: 280px;
+   height: 230px;
+   margin: 0 auto;
+}
+.team_item h4 {
+   padding-top: 24px;
+   font-size: 18px;
+   line-height: 21px;
+}
+.team_item img {
+   width: 100%;
+   height: 100%;
+   margin: 0 auto;
+}
+.team_item__slider {
+   padding: 0;
+}
+.team_item__slider h2 {
+   font-size: 24px;
+   line-height: 32px;
+}
+.team_item p {
+   padding: 38px 0 50px 0;
+   font-size: 14px;
+   line-height: 16px;
+}
+
+	.download{
+		padding: 35px 0 45px 0;
+	}
+   .download_block h5 {
+      font-size: 18px;
+      line-height: 21px;
+}
+.download_block p {
+   font-size: 13px;
+   line-height: 15px;
+   margin-bottom: 15px;
+}
+	.team_s{
+		padding: 35px 0 35px 0;
+	}
+	#dlForm{
+		width: 100%;
+	}
+	.main_footer {
+      padding: 34px 0;
+      background-color: #3a3e64;
+}
+.footer_item h5 {
+   font-size: 14px;
+   line-height: 16px;
+   margin-bottom: 34px;
+}
+.footer_item p {
+   font-size: 14px;
+   line-height: 16px;
+   margin-bottom: 70px;
+}
+
+}
+
+
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
