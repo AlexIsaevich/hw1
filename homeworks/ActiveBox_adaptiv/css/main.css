@@ -1,5 +1,5 @@
 body{
-   font-family: "RalewayRegular", sans-serif;
+   font-family: "Raleway";
    font-size: 16px;
    min-width: 320px;
 }
@@ -8,6 +8,7 @@ body{
 }
 
 /*BUTTONS*/
+
 .my_btn{
    background: #FF4343;
    border: none;
@@ -28,7 +29,7 @@ body{
    box-shadow: 4px 4px 30px #FF4343;
 }
 .btn_md{
-   padding: 10px 30px;
+   padding: 28px 50px;
 }
 .btn_lg{
    padding: 15px 50px;
@@ -64,6 +65,7 @@ body{
    background-color: transparent;
    width: 40px;
    height: 40px;
+   margin: 13px;
 }
 .soc_btn_white:hover{
    border: 1px solid #FF4343;
@@ -84,11 +86,12 @@ body{
 }
 
 /*HEADER*/
+
 header{
-	height: 750px;
+	height: 768px;
 	background-image: linear-gradient(to bottom, rgba(37, 43, 73, 0.8), rgba(37, 43, 73, 0.8)),url('../img/img_banner.jpg');
 	-webkit-background-size: cover;
-	background-size: 100% 100%;
+	background-size:100% 100%;
    position: relative;
 }
 
@@ -169,12 +172,13 @@ nav{
 }
 
 /*PARAMETRS*/
+
 .params_s{
 	padding: 95px 0;
 }
 .param_block{
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 100px;
 }
 .param_block i{
 	font-size: 70px;
@@ -190,6 +194,7 @@ nav{
    text-align: center;
    text-transform: uppercase;
    color: #2D3033;
+   margin-top: 30px;
 }
 .param_block p{
    font-family: 'Raleway';
@@ -202,6 +207,7 @@ nav{
 }
 
 /*WORKS*/
+
 .work_block{
 	position: relative;
 }
@@ -232,6 +238,7 @@ nav{
 .work_block:hover .image_wrap{
 	opacity: 1;
 }
+
 .work_descr{
 	color: #fff;
 	text-align: center;
@@ -260,7 +267,7 @@ nav{
 /*TEAM*/
 
 .team_s{
-	padding: 115px 0;
+	padding: 80px 0;
 	color: #6c7279;
 }
 .team_item h4{
@@ -309,17 +316,6 @@ nav{
    background: #5C3249;
 }
 
-.slide:nth-of-type(2) {
-   background: #F4E4CD;
-}
-
-.slide:nth-of-type(3) {
-   background: #C75534;
-}
-
-.slide:nth-of-type(4) {
-   background: #D1D1D4;
-}
 
 .slide_buttons {
    left: 0;
@@ -359,48 +355,83 @@ a.slide_btn {
 }
 
 
-/* slider */
-
-
-.slider__s{
-   max-height: 490px;
-}
-.team_item img {
-   max-width: 740px;
-   max-height: 490px;
-   padding-left: 0;
+ /* slider  */
+.item .active{
+   position: relative;
 }
 .team_item__slider {
-   padding: 115px 0 0 0;
+   margin: auto;
+} 
+.team_item__slider{
+   background-color: #4267b2;
 }
-.team_item__slider h2{
+.img_right {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(255, 67, 67, .8);
+   border: 2px solid #FFFFFF;
+   display: -webkit-flex;
+   display: -moz-flex;
+   display: -ms-flex;
+   display: -o-flex;
+   display: flex;
+   opacity: 0;
+}
+.slide_text {
+   color: #fff;
+   text-align: center;
+   margin: auto;
+}
+
+
+.fon_sl{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #5C3249;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.sl_descr h2 {
    font-family: 'Cardo';
    font-style: italic;
    font-weight: 400;
-   font-size: 36px;
-   line-height: 49px;
-   align-items: center;
+   font-size: 24px;
+   line-height: 32px;
    text-transform: capitalize;
-   color: #FFFFFF;
 }
-.team_item__slider h6{
+.sl_descr h6 {
    font-family: 'Raleway';
    font-style: normal;
    font-weight: 700;
-   font-size: 13px;
-   line-height: 15px;
+   font-size: 12px;
+   line-height: 14px;
    text-transform: uppercase;
-   color: #FFFFFF;
 }
 
-* {box-sizing:border-box}
+
+.sl_descr{
+	color: #fff;
+	text-align: left;
+	margin: auto;
+   padding: 0 80px 80px;
+}
 /* slider */
 
 
 /*DOWNLOAD*/
 
 .download{
-   padding: 114px 0;
+   padding: 80px 0;
 }
 .download_block{
    text-align: center;
@@ -427,7 +458,7 @@ a.slide_btn {
 /*FOOTER*/
 .main_footer{
 	padding: 70px 0;
-	background-color: #3a3e64;
+	background-color: #353C65;
 }
 .footer_item{
 	text-align: center;
@@ -453,7 +484,7 @@ a.slide_btn {
    color: #FFFFFF;
 }
 .copyright_block{
-	background-color: #313454;
+	background-color: #2C3154;
 	text-align: center;
 	padding: 30px 0;
 }
